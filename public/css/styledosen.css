@@ -21,8 +21,8 @@ label {
 }
 
 .btn {
-    background-color: rgb(238, 151, 0);
-    color: white;
+    background-color: rgb(216, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .btn:hover {
@@ -36,7 +36,7 @@ label {
     margin: 20px 10px 0;
     border: none;
     border-radius: 8px;
-    background: rgb(0, 0, 118);
+    background: #041C32;
     color: white;
 }
 

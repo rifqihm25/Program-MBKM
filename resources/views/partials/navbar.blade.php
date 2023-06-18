@@ -4,7 +4,7 @@
         ->first();
 @endphp
 <header>
-    <nav class="navbar navbar-expand-lg navbar-bg" style="background-color: black">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: #2C3639">
         <div class="container">
             <a class="navbar-brand">
                 <img src="img/logo.png" alt="" width="60" height="35" class="d-inline-block align-top">
@@ -17,17 +17,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto text-center mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="beranda" style="color: azure">Beranda</a>
+                        <a class="nav-link active" aria-current="page" href="beranda">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" style="color: azure" href="{{ route('cek-konversi') }} " >Konversi</a>
+                        <a class="nav-link active" href="{{ route('cek-konversi') }}">Konversi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" style="color: azure" href="{{ route('profile') }}">{{ $data->name }}</a>
+                        <a class="nav-link active" href="{{ route('profile') }}">{{ $data->name }}</a>
                     </li>
                     <form action="/logout" method="POST">
                         @csrf
-                        <button class="btn">Logout</button>
+                        <button class="btn">Keluar</button>
                     </form>
                 </ul>
             </div>

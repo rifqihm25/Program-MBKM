@@ -15,8 +15,8 @@
             <a href="{{ route('download.pdf1') }}"><button class="btn-info">Informasi</button></a>
             <a href="{{ route('download.pdf2') }}"><button class="btn-prgrm">Syarat & Ketentuan</button></a>
             <a href="{{ route('mahasiswa.index') }}"><button class="btn-dftr">Daftar Program</button></a>
-            <a href="{{ route('upload-index') }}"><button class="btn-upload">Upload</button></a>
-            <a href="{{ route('dosen.index') }}"><button class="btn-input">Input Dosen</button></a>
+            <a href="{{ route('upload-index') }}"><button class="btn-upload">Unggah Berkas</button></a>
+            <a href="{{ route('dosen.index') }}"><button class="btn-input">Dosen Penguji</button></a>
         </div>
     </div>
 @endsection

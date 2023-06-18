@@ -38,8 +38,7 @@
 
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item dropdown-footer" href="{{ route('logout') }}"><i
-                        class="dropdown-item-icon mdi mdi-power text-primary me-2"></i> Log
-                    Out</a>
+                        class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Keluar</a>
             </div>
         </li>
     </ul>

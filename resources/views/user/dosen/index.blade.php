@@ -15,7 +15,7 @@
             </div>
         @endif
         @foreach ($dsn as $dsn)
-            <h2 class="header text-center mt-4">INPUT DOSEN</h2>
+            <h2 class="header text-center mt-4">DOSEN PENGUJI</h2>
             <form method="POST" action="{{ route('dosen.store') }}">
                 @csrf
                 <div class="form-group">

@@ -4,7 +4,7 @@
 @endsection
 @section('content')
     <div class="container">
-        <h2 class="header text-center mt-4">UPLOAD BERKAS</h2>
+        <h2 class="header text-center mt-4">UNGGAH BERKAS</h2>
 
         @if (session('success'))
             <div class="alert alert-success">

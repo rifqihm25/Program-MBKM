@@ -26,7 +26,7 @@
     <main>
         @yield('content')
     </main>
-    <footer class="footer" style="background: rgb(255, 255, 255)">
+    <footer class="footer" style="background: #ffffff">
 
         <div class="footer-left">
             <h3>Universitas XYZ</h3>

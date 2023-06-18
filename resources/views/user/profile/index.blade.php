@@ -124,7 +124,7 @@
                                 <input type="text" name="email_mhs" value="{{ $mhs->email_mhs }}" class="form-control">
                             </div><br>
                             <div class="tombol">
-                                <label for="image" class="custom-file-upload">Upload</label>
+                                <label for="image" class="custom-file-upload" style="font-size: 15px">Unggah</label>
                                 <input class="form-control image-profile" type="file" id="image" name="image">
                                 <button type="submit" class="btn-simpan">Simpan</button>
                             </div><br>
